@@ -1,0 +1,25 @@
+Write notes about your proposal for Mission 2 here.
+
+Mockups: HTML+CSS mockups for deposits and withdrawals are included in the web app.
+
+- Where do these flows live?
+Deposits and withdraws are an essential part of banking, in the main APP, we should introduce these flows on the home screen.
+However, since these flows are used so many times there can be easy access shortcuts from Mobile home screens or long tap-on icon actions.
+
+The Flow of deposits should be
+step1. Home Screen -> Deposit/withdraw
+step2. Select the payment/ withdraw method
+step3. Fill in the details - Select Bank, mode etc
+step4. Redirection Screen
+step5. Bank Auth
+step6. Screen Success
+
+Making this process simple and secure for end-users will have the following steps
+- Step2: payment method and step3 bank details can be saved for existing users. 
+- More payment options and better integration with 3rd party financial services like PayPal.
+- errors and failure notifications.
+- MFA for high-value transactions.
+- Monthly reminder to change passwords.
+- Daily + Weekly automated audits of transaction records from the bank. Automated resolution if possible.
+- Proper idempotency for every transaction.
+- On mobile app:  comfort features like - OTP auto-read, one-touch transactions, and NFC support can be added for user comfort.
